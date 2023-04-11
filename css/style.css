@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+.name {
+    color: whitesmoke;
+    padding: 2em;
+    padding-top: 3em;
+    font-weight: 400;
+}
+#video-container {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    z-index: -1; 
+}
+#video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#main {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1.2fr 1fr; 
+    gap: 40px; 
+    padding: 1em;
+    scale: 80%;;
+  }
+
+#main > div {
+    padding: 10px;
+  }
+.img_1 {
+    position: relative;
+    top: 40px;
+}
+.img_4 {
+    position: relative;
+    top:-60px;
+    left: -30px;
+}
+.img_7 {
+    position: relative;
+    top: -200px;
+    left: 5px,
+}
+.img_3 {
+    position: relative;
+    top: 20px;
+}
+.img_9 {
+    position: relative;
+    top: -170px;
+}
+.img_8 {
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+.img_6 {
+    position: relative;
+    left: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    color: whitesmoke;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    opacity: 40%;
+}
